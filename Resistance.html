@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Untitled document</title>
+
+<meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="robots" content="noimageindex, noarchive"> <meta name="apple-mobile-web-app-status-bar-style" content="default"> <meta name="mobile-web-app-capable" content="yes"> <meta name="theme-color" content="#ffffff"> <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover"> 
+
+<Style>
+*{margin:0px;padding:0px;}
+body{background:linear-gradient(to left,white,violet,white);}
+span{font-size:12px;color:purple;font-style:italic;}
+h1{color:#ff1493;}
+#aw{background-color:green;color:white;border:2px solid #ff1493;border-radius:12px;outline:none;width:80px;height:22;}
+
+#a{border:2px solid #1e90ff;width:130;border-radius:14px;outline:none;text-align:center;}
+
+#w{border:2px solid #1e90ff;width:130;border-radius:14px;outline:none;text-align:center;}
+
+#c{border:3px solid lime; border-radius:23px;outline:none;text-align-last:center;}
+table{color:white;width:200px;border-collapse:collapse;background-color:purple;}
+     #rrr{background-color:black;}
+    #qqq{background-color:brown;}
+     #www{background-color:red;}
+     #zzz{background-color:yellow;color:red;}
+      #sss{background-color:orange;}
+    #iii{background-color:green;}
+    #eee{background-color:blue;}
+    #oooo{background-color:violet;}
+    #vvvv{background-color:grey;}
+    #ffff{background-color:white;color:red;}
+.f{color:gold;}.zx{float:left;}
+.x{color:silver;}
+#com{border-radius:13px; background-color:purple;color:white;width:36;height:60;outline:none;}
+.milu{text-align-last:center;color:lime;text-shadow:2px 4px 6px blue;}
+
+</style>
+</head>
+<body>
+<center>
+<h1>Resistance<br>
+Calculator</h1>
+<input type="text" id="a"><span>First&Second Number Color<span><br>
+<input type="text" id="w"><span>Three number color</span><br>
+<input type="text" id="c"><span>Ohms</span></center>
+<center>
+<button onclick="nn()"; id="aw">Result </button><br>
+<br><button id="com">Reset</button><center><br><br><br>
+
+
+<div class="zx">
+<h3 class="f">Golden 5%</h3>
+<h3 class="x">Silver 10%</h3>
+<h3 class="a"> No color 20 %</h3></div>
+<table border="1">
+<tr><th id="rrr">B 0</th><td>1</td></tr>
+<tr><th id="qqq">B 1</th><td>10</td></tr>
+<tr><th id="www">R 2</th><td>100</td></tr>
+<tr><th id="sss">O 3</th><td>1000</td></tr>
+<tr><th id="zzz">Y 4</th><td>10000</td></tr>
+<tr><th id="iii">G 5</th><td>100000</td></tr>
+<tr><th id="eee">B 6</th><td>1000000</td></tr>
+<tr><th id="oooo">V 7</th><td>10000000</td></tr>
+<tr><th id="vvvv">G 8</th><td>100000000</td></tr>
+<tr><th id="ffff">W 9</th><td>1000000000</td></tr>
+</table><br><br><br>
+<h1 class="milu">Shashanka Patra</h1>
+<script>
+function nn()
+{{
+let cc=document.getElementById("w").value;
+if(cc.length==9)
+{var ii=document.getElementById("c").value="000";}
+else if(cc.length==0)
+{var ii=document.getElementById("c").value="0";}
+else if(cc.length==1)
+{var ii=document.getElementById("c").value="";}
+else if(cc.length==2)
+{var ii=document.getElementById("c").value="00";}
+else if(cc.length==3)
+{var ii=document.getElementById("c").value="";}
+else if(cc.length==4)
+{var ii=document.getElementById("c").value="0";}
+else if(cc.length==5)
+{var ii=document.getElementById("c").value="00";}
+else if(cc.length==6)
+{var ii=document.getElementById("c").value="000";}
+else if(cc.length==7)
+{var ii=document.getElementById("c").value="0";}
+else if(cc.length==8)
+{var ii=document.getElementById("c").value="00";}
+{
+var qq=document.getElementById("a").value;
+var ee=document.getElementById("w").value=ii;
+document.getElementById("c").value=qq+ee;}}
+}
+{document.getElementById("com").addEventListener("click",reset);function reset(){document.querySelector("#c").value="";
+document.querySelector("#w").value="";
+document.querySelector("#a").value="";}}
+</script>
+</body>
+</html>

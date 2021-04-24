@@ -21,98 +21,51 @@
 }
 100%{width:2; height:2;
 }
-}#ff{background:linear-gradient(white,#1f90ff,#ff00cc);color:dark;text-transform:uppercase;
-}
-table{border-collapse:collapse;border:3px solid black;width:100%;height:100%;
-}
-table tr{border:3px solid black;
+}#men{background:linear-gradient(white,#1f90ff,white); width:100%; height:100%; margin:44; padding:66;
+display:none;}
+
+ul li{color: purple;margin:23;
 }
 </style> </head> <body> 
 
 
-<table id="FF" border="1">
-<tr><th>Hemanta Mpatra</th><td>000000</td></tr>
-<tr>
-<th>Parvat</th><td>+91 80186 83693
-</td></tr>
-
-<tr><th>Parhalad bhoi</th><td>+91 97777 17168
-</td></tr>
-
-<tr><th>DC sahu</th><td>133444444</td></tr>
-
-<tr><th>Sachin Mpatra</th><td>+91 91784 05959
-</td></tr>
-<tr><th>uttam padhan</th><td>133444444</td></tr>
-<tr><th>tamal padhan</th><td>+91 99382 48828
-</td></tr>
-<tr><th>sumanta padhan</th><td>133444444</td></tr>
-<tr><th>umes padhan</th><td>133444444</td></tr>
-<tr><th>deba padhan</th><td>133444444</td></tr>
-<tr><th>Vidya barik</th><td>133444444</td></tr>
-<tr><th>Manoj bhoi</th><td>133444444</td></tr>
-<tr><th>pintu sahu</th><td>+91 91786 40500
-</td></tr>
-<tr><th>subrat padhan</th><td>63706 20932
-</td></tr>
-<tr><th>Makan padhan</th><td>+91 95567 16603
-</td></tr><tr><th>parsanta te</th><td>+91 99378 90068
-</td></tr>
-
-<tr><th>jasobanta Mpatra</th><td>133444444</td></tr>
-<tr><th>Ganesh padhan</th><td>+91 78095 21339
-</td></tr><tr><th>sidheswar padhan</th><td>70085 68757
-</td></tr>
-
-
-<tr><th>mana padhan</th><td>96686 37086
-</td></tr><tr><th>sanjib padhan</th><td>+91 63708 04352</td></tr>
-
-<tr><th>kanha padhan</th><td>91787 20328
-</td></tr>
-<tr><th>amiya padhan</th><td>+91 95566 63989
-</td></tr><tr><th>bibeka padhan</th><td>+91 73278 48474</td></tr>
-
-<tr><th>Bablu barik</th><td>77509 33807</td></tr>
-<tr><th>Sujit podh</th><td>+91 77888 00177
-</td></tr>
-<tr><th>Ritis padhan</th><td>+91 6371 015 516
-</td></tr>
-<tr><th>aswini padhan</th><td>78940 13353</td></tr>
-<tr><th>Depak sahu</th><td>+91 70775 08323</td></tr>
-
-<tr><th>Bablu pujhari</th><td>+91 90784 52549
-</td></tr>
-<tr><th>Ajit padhan</th><td>77520 05070
-</td></tr>
-<tr><th>Aanda padhan</th><td>+91 80182 95213</tr><tr><th>nartam padhan</th><td>97773 74670</td></tr>
-<tr><th>shyam padhan</th><td>9668807331</td></tr><tr><th>janta padhan</th><td>133444444</td></tr><tr><th>raju padhan</th><td>133444444</td></tr>
 
 
 
-<tr><th>rasiaa bhoi</th><td>+91 84559 05997
-</td></tr>
-<tr><th>chandra padhan</th><td>133444444</td></tr><tr><th>kuber sahu</th><td>+91 77508 59166</td></tr><tr><th>kurkuru bag</th><td>+91 63704 98067</td></tr>
-<tr><th>Shashanka patra</th><td>7653817340</td></tr>
-</table>
+
+
 
 <div id="xx">
 <div id="okk">
 <div id="mn">
-<div id="mk">Menu</div></div>
+
+<div id="mk">Menu</div>
+
+</div>
  </div>
 
 <center>
 <h1>AKHANDA JOYTI YUBAK SANGHA<i>KUMBHARI</i></h1></center>
 </div>
 
+<nav id="men">
+<ul>
+<li href="table.html">All Phone Number</li>
+<li href="groupchat.html">Upcoming</li>
+<li href="imag.html">Biswakarma puja</li>
+<li href="add.html">about</li></ul></nav>
+
+
   <IMG src="hemanta.jpg" alt="Hemanta"/>
-<div style="float:right;top:100px; right:44;position: relative;color: purple;"><div>Live Cricket Score</div>
+
+<div style="float:right;top:100px; right:44;position: relative;color: purple;">
+
+<div>Live Cricket Score</div>
 <iframe src="https://widget.crictimes.org/" style="width:200px;min-height:100px;" frameborder="0" scrolling="yes"></iframe>
 
-
-
 </div>
+
+
 
 
 <IMG src=" " alt="Parvata"/>
@@ -153,10 +106,22 @@ table tr{border:3px solid black;
 
 <span style="color:cyan;">Copyright@ShashankaPatra</span>
 
- <script> 
+ <script> /*
 function n(){
 var f=new Date()
-document.getElementById("gh").innerHTML=f.toLocaleString();}n();
+document.getElementById("gh").innerHTML=f.toLocaleString();}n();*/
+
+function bn(){
+document.querySelector("#men").style.display="block";
+
+}
+
+
+
+document.getElementById("mk").addEventListener("click",bn);
+
+
+
 </script> 
 
 </body> </html>

@@ -1,0 +1,105 @@
+
+<html lang="en-IN"> <head><title>group chat</title>
+ <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="robots" content="noimageindex, noarchive"> <meta name="apple-mobile-web-app-status-bar-style" content="default"> <meta name="mobile-web-app-capable" content="yes"> <meta name="theme-color" content="#ffffff"> <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+ 
+ 
+ 
+ <Style > *{padding:0px;margin:0px;}
+
+ body{color:#1e90ff;}
+
+/* menu style */
+
+ #dill {background:linear-gradient(to right,#ff1493,#1e90ff);height:90px;color:white;} ul{list-style:none;}
+
+ ul li{background:linear-gradient(to left,#1e90ff,#ff1493);color:f8f8ff; border:1px solid white;height:37px;width:410px; text-align:center;float:left;border-radius:9px;} 
+ul li:hover{color:blue;}
+ #manul{display:none;font-size:14px;} 
+
+/* table style */ td{border:1px solid white;border-radius:12px;width:400px;height:40px;text-align:center;font-size:14px;background-color:#1e90ff;color:white;} 
+
+#xx{font-size:14px;} td li{list-style:none;} li a {text-decoration:none;color:white;} td:hover{background-color:#1e90ff;opacity:0.3;} 
+
+
+/* search box*/ #searchh{border:none;outline:none;width:360px;height:25px;border-radius:12px;text-align:center;color:#1e90ff;font-size:20px;}
+
+ /* button */ #button{border:none;width:40px;height:27px;outline:none;background-color:white;float:right;} 
+
+#style{border:2px solid #ff1493;height:34px;border-radius:12px;}
+
+ #style:hover{border:2px solid #1e90ff;} #svg:hover{background-color:#1e90ff;border-radius:14px;width:25;height:24px;}
+
+ /* menu togel */ #cor{display:inline-block;} .bar1, .bar2, .bar3 {width: 40px; height: 3px; background-color:white; margin: 6px 0; transition: 0.4s; } #cor{background-color:#1e90ff;float:right;border-radius:9px;} 
+
+/* footer*/ footer{background:linear-gradient(to right,#ff1493,#1e90ff);color:white;}
+
+ #time{font-size:9px;}
+
+ /* log out */ #logout a{text-decoration:none;color:#ff1493;font-size:26px;} #logout a:focus{color:#1e90ff;} 
+
+/* language */ th a{text-decoration:none;color:#ff1493;font-size:16px;}
+
+ th a:focus{color:#1e90ff;}
+
+ .new a{text-decoration:none;color:#ff1493;}
+
+ .new a:focus{color:#1e90ff;} b{float:right;}
+
+ #aboutinfo{display:none;color:#ff1493;} 
+#href{display:block;}
+
+</style> </head> <body> <div id="dill"><storng><h1>GROUP CHAT </h1><div id="time"></div></storng>
+
+<div id="cor" onclick="djo()";> <div class="bar1"></div> <div class="bar2"></div> <div class="bar3"></div> </div></div>
+
+ <ul id="manul"> <br>
+ <li>Porfile</li> <li>Account</li> <li>New Group</li><li>Display</li> <li>live video</li> <li>invite friend </li> <li id="abou">about</li> <li>Help</li> </ul> 
+
+
+
+ <div id="aboutinfo"><span id="mylo"><span>Group Chat Version </span><b id="appversion"></b><hr><br> <span>Borwser</span><b id="operating"></b><hr> </div></span>
+
+
+<span id="href">
+ <table><tr><nav> <ul><td><li>Home</li></td> <td><li><a href="#">Friend</a></li> </td> <td><li><a href="#">Message</a></li></td> <td><li>Porfile</li></td> <td><li>Video</li> </td></tr><tr> <td><li>CHATS</li></td> <td><li>STATUS</li></td> <td><li>CALLS</li></td> <td><li id="xx">NEW Contact </li> </td> <td><li>News</li></td> </ul></nav> </tr> </table>
+
+ <div id="Style"> <input type ="search" id="searchh" placeholder="search your friend name"> <button id="button"><div id="svg"> <svg width="27" height="26"> <circle cx="8"cy="7"r="3" height="100"width="100" style="fill:purple;stroke:#ff1493;stroke-width:18;opacity:0."></circle><path d="M9 3C5.686 3 3 5.686 3 9c0 3.313 2.686 6 6 6s6-2.687 6-6c0-3.314-2.686-6-6-6m13.713 19.713c-.387.388-1.016.388-1.404 0l-7.404-7.404C12.55 16.364 10.85 17 9 17c-4.418 0-8-3.582-8-8 0-4.42 3.582-8 8-8s8 3.58 8 8c0 1.85-.634 3.55-1.69 4.905l7.403 7.404c.39.386.39 1.015 0 1.403" fill="#1e90ff"></path> </svg></div> </button></div> <br>
+  
+  
+  
+  
+  
+  <table><tr> <th><a href="#">English </a></th> <th><a href="#">odia</a></th> <th><a href="#">hindi</a></th></tr> </table> <center><h5><div id="logout"> <a href="#">Log Out</a></div></h5><br> <h4><span class="new"><a href="#">New version Group Chat downloading</a></span></h4></center> 
+
+<center> <footer id="m4"><strong>Copyright@2019 Group Chat App inc.<br>version 1.0.1</strong></footer></center> </span>
+
+ <script> { var time=new Date(); {document.getElementById("time").innerHTML=time;}}
+
+{ var menu=document.getElementById("cor"); menu.addEventListener("click", ofdow, false); function ofdow() 
+
+{var info=document.getElementById("manul")
+ if(info.style.display==="block")
+ {info.style.display="none";}
+ else{info.style.display="block";} }}
+
+{var w=document.getElementById("abou"); w.addEventListener("click" ,function() 
+{var info=document.getElementById("aboutinfo"); 
+if(
+info.style.display==="block")
+{info.style.display="none";}
+else{info.style.display="block";}
+
+},false)}
+
+
+
+ {document.getElementById ("appversion").innerHTML="1.0.1"} {document.getElementById("operating").innerHTML="Copyright@2019. Shashanka patra"}
+function djo()
+
+
+{var deil=document.getElementById("href")
+ if(deil.style.display==="none")
+ {deil.style.display="block";}
+ else{deil.style.display="none";} }
+
+ </script> </body> </html>

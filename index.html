@@ -3,7 +3,7 @@
 
 
 <style> *{padding:0px;margin:0px; } Img{border:3px solid purple;height:120; width:150;border-radius:23px; position:relative;top:89px;} 
-#xx H1{font-size:13px;align-items:center; display:grid;}
+#xx H1{font-size:14px;align-items:center; display:grid;}
 
 #xx{background-color:purple;color:white;height:77;width:420; position:fixed;
 }body{background:linear-gradient(white,#1f90ff,#ff00cc); background-repeat:repeat;
@@ -15,7 +15,7 @@
 #x:hover{background:purple;
 }#mn{background:red;border:1px solid black;height:30;width:30;border-radius:23px; position: relative;top:19;
 }
-#mk{background:white;border:1px solid black;height:2;width:2;border-radius:23px; position:relative;top:8;left:12; animation:qa 1s linear infinite;
+#mk{background:white;border:1px solid black;height:2;width:2;border-radius:23px;font-size:18; position:relative;top:8;left:12; animation:qa 1s linear infinite;
 }
 @keyframes qa{0%{width:12; height:12;
 }
@@ -46,7 +46,9 @@ ul li{color: purple;margin:23;
  </div>
 
 <center>
-<h1>AKHANDA JOYTI YUBAK SANGHA<i>KUMBHARI</i></h1></center>
+<h1>AKHANDA JOYTI YUBAK SANGHA<i>KUMBHARI</i></h1>
+<div id="gh" style="position: relative;float:right;color:white;"></div>
+</center>
 </div>
 
 <nav id="men">
@@ -54,7 +56,7 @@ ul li{color: purple;margin:23;
 <li><a href="table.html">All Phone Number</a></li>
 <li><a href="groupchat.html">Upcoming</a></li>
 <li><a href="imag.html">Biswakarma puja</a></li>
-<li>< href="add.html">about</a></li></ul></nav>
+<li><a href="add.html">about</a></li></ul></nav>
 
 
   <IMG src="hemanta.jpg" alt="Hemanta"/>
@@ -107,13 +109,18 @@ ul li{color: purple;margin:23;
 
 <span style="color:cyan;">Copyright@ShashankaPatra</span>
 
- <script> /*
+ <script> 
 function n(){
 var f=new Date()
-document.getElementById("gh").innerHTML=f.toLocaleString();}n();*/
+document.getElementById("gh").innerHTML=f.toLocaleString();}n();
 
 function bn(){
-document.querySelector("#men").style.display="block";
+var xx=document.querySelector("#men");
+if(xx.style.display==="none")
+{xx.style.display="block";
+}else{xx.style.display="none";
+}
+
 
 }
 

@@ -17,7 +17,7 @@
 }
 #mk{background:white;border:1px solid black;height:2;width:2;border-radius:23px;font-size:18; position:relative;top:8;left:12; animation:qa 1s linear infinite;
 }
-@keyframes qa{0%{width:12; height:12;
+@keyframes qa{0%{width:15; height:15;
 }
 100%{width:2; height:2;
 }
@@ -127,7 +127,9 @@ ul li{color: purple;margin:23;
  <script> 
 function n(){
 var f=new Date()
-document.getElementById("gh").innerHTML=f.toLocaleString();}n();
+document.getElementById("gh").innerHTML=f.toLocaleString();
+setInterval (n,100);
+}
 
 function bn(){
 var xx=document.querySelector("#men");

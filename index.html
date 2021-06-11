@@ -30,8 +30,36 @@ ul li{color: purple;margin:23;
 }a{text-decoration:none;color:purple;
 }#r img{height:54px ! important;width:45px ! important; position:relative;float:right;top:260;left:140;
 }
-</style> </head> <body> 
+</style>
 
+#v{background:#00bfff; height:100%;width:100%;
+}
+
+.cz{background-color:white;height:80; width:80; text-align: center; position: relative; left:169; bottom:-300;align-items:center; display:grid; color: purple; font-size:15;border-radius:18px;font-style:italic;border:6px solid tomato;box-shadow:6px 5px 3px white;
+animation:fpp 4s linear infinite;
+}
+@keyframes fpp{0%{height:0; width:0;box-shadow:6px 5px 3px cyan;color:blue; opacity:0.8; font-size:1;
+}50%{background:blue;
+}
+
+100%{width:80; height:80;
+}
+}
+#v img{position: relative;left:174;top:2;
+}
+</style>
+
+
+ </head> <body onload="on()"> 
+<div id="v">
+<img src=".       " height="60" width="60"/>
+<div class="cz">AKHANDA</div>
+</div>
+
+<script>
+function on(){document.getElementById("v").style.display="none";
+}
+</script>
 
 
 

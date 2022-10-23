@@ -1,222 +1,53 @@
-<html> <head> <title>Akhanda Joyti yubak sangha</title>
-<meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="robots" content="noimageindex, noarchive"> <meta name="apple-mobile-web-app-status-bar-style" content="default">
- <meta name="mobile-web-app-capable" content="yes"> <meta name="theme-color" content="#ffffff">
- <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+<html> <head> <title>Untitled document</title> </head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="robots" content="noimageindex, noarchive"> <meta name="apple-mobile-web-app-status-bar-style" content="default"> <meta name="mobile-web-app-capable" content="yes"> <meta name="theme-color" content="#ffffff"> <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover"> <style >*{padding:0px;margin:0px; } #sty td{text-transform:uppercase;color:white; text-align:left; border:1px solid black;font-size:11;position:relative;} table{border-collapse:collapse; background:#1e90ff;height:91px; } h1{text-align:center;color:#c71585; }h2{color:purple;text-shadow:1px 1px 1px black;text-align:center; } </style > <body> <h2>World Stock Market</h2> <table border="0" id="sty"><tr> <td id="jn">Japan</td> <td id="Korea">South korea</td> <td id="taiwan">taiwan</td> <td id="china">china</td> </tr><tr> <td id="aust">Australia</td> <td id="hong">Hong kong</td> <td id="saudi">SaudiA</td> <td id="singa">Singapore</td></tr><tr> <td id="indo">Indonesia</td> <td id="thai">Thailand</td> <td id="ind">India</td> <td id="Uae">UAE Dubai</td> </tr><tr> <td id="tur">Turkey</td> <td id="Ita">Italy</td> <td id="Ger">Germany</td> <td id="Fra">France</td> </tr><tr> <td id="Uk">England</td> <td id="us">America</td> <td id="Rus">Russia</td> <td id="Bra">Brazil</td></tr> </table>
 
-
-<style> *{padding:0px;margin:0px; } Img{border:3px solid purple;height:120; width:150;border-radius:23px; position:relative;top:89px;} 
-#xx H1{font-size:14px;align-items:center; display:grid;}
-
-#xx{background-color:purple;color:white;height:77;width:420; position:fixed;
-}body{background:linear-gradient(white,#1f90ff,#ff00cc); background-repeat:repeat;
-}
-#x a{text-decoration:none;color:white;
-}
-#x{width:100px;height:46px; background: purple;text-align:center; align-items:center; display:grid;border-radius:23px;float:right;
-}
-#x:hover{background:purple;
-}#mn{background:red;border:1px solid black;height:30;width:30;border-radius:23px; position: relative;top:19;
-}
-#mk{background:white;border:1px solid black;height:2;width:2;border-radius:23px;font-size:18; position:relative;top:8;left:12; animation:qa 1s linear infinite;
-}
-@keyframes qa{0%{width:15; height:15;
-}
-100%{width:2; height:2;
-}
-}#men{background:linear-gradient(white,#1f90ff,white); width:100%; height:100%; margin:44; padding:66;
-display:none;}
-
-ul li{color: purple;margin:23;
-}a{text-decoration:none;color:purple;
-}#r img{height:54px ! important;width:45px ! important; position:relative;float:right;top:260;left:140;
-}
-</style>
-<Style>
-
-#v{background:blue; height:100%;width:100%;
-}
-
-.cz{background-color:white;height:80; width:80; text-align: center; position: relative; left:169; bottom:-300;align-items:center; display:grid; color: purple; font-size:15;border-radius:18px;font-style:italic;border:6px solid tomato;box-shadow:6px 5px 3px white;
-animation:fpp 4s linear infinite;
-}
-@keyframes fpp{0%{height:0; width:0;box-shadow:6px 5px 3px cyan;color:blue; opacity:0.8; font-size:1;
-}50%{background:blue;
-}
-
-100%{width:80; height:80;
-}
-}
-#v img{position: relative;left:174;top:2;
-}#bnn{
-Height:140;width:340px;!important
-}#decc{background-image:url(dec.jpg);hieght:300px;width:340px;
-
-}
-</style>
-
-
- </head> <body onload="on()"> 
-
-<Center><a href="address.html" style="text-decoration:none;"color:#1f90ff;">Documents</a></center>
-
-<div id="v">
-<img src="aknn.jpg" height="40" width="40"/>
-<div class="cz">AKHANDA</div>
-</div>
 
 <script>
-function on(){document.getElementById("v").style.display="none";
+function m(){ var v=new Date().toLocaleTimeString("en-us",{timeZone:"asia/tokyo",timeStyle:"medium",hourCycle:"h12" } );document.querySelector("#jn"). innerHTML="<h1>Japan</h1>Nikkei:9.00am close:11.30am"+" "+v; 
+
+var kor=new Date().toLocaleTimeString("en-us",{timeZone:"asia/seoul",timeStyle:"medium",hourCycle:"h12"} );document.querySelector("#korea").innerHTML="<h1>korea </h1>krx:9.00am close:3.30pm"+" "+kor; 
+
+var chin=new Date().toLocaleTimeString("en-us",{timeZone:"asia/Shanghai",timeStyle:"medium",hourCycle:"h12"} );document.querySelector("#china").innerHTML="<h1>china</h1>SSE:9.30am close:3.00pm"+" "+chin; var tai=new Date().toLocaleTimeString("en-us",{timeZone:"asia/taipei",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#taiwan").innerHTML="<h1>taiwan</h1>twse:9.00am close:5.00pm"+" "+tai; 
+var aus=new Date().toLocaleTimeString("en-us",{timeZone:"australia/sydney",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#aust").innerHTML="<h1>australia</h1>asx:10.00am close:4.00pm"+" "+aus; var vie=new Date().toLocaleTimeString("en-us",{timeZone:"asia/riyadh",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#saudi").innerHTML="<h1>saudi Arabia</h1>tasi:10.00am close:3.10pm"+" "+vie; 
+
+/* var hon=new Date().toLocaleTimeString("en-us",{timeZone:"asia/Hong Kong",timeStyle:"medium",hourCycle:"h12"} ); */ document.querySelector("#hong"). innerHTML="<h1>hong kong</h1> hkex:6.45am close:12.00pm"; 
+var sing=new Date().toLocaleTimeString("en-us",{timeZone:"asia/singapore",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#singa"). innerHTML="<h1>singapore</h1> sgx:9.00am close:5.00pm"+" "+sing; 
+
+var indu=new Date().toLocaleTimeString("en-us",{timeZone:"asia/Jakarta",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#indo"). innerHTML="<h1>Indonesia</h1>idx:9.00am close:11.30am"+" "+indu; var thai=new Date().toLocaleTimeString("en-us",{timeZone:"asia/bangkok",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#thai").innerHTML="<h1>Thailand </h1>set:10.00 am close:4.30pm"+" "+thai; 
+var ind=new Date().toLocaleTimeString("en-us",{timeZone:"asia/kolkata",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#ind").innerHTML="<h1>India </h1>nse:9.15am close:3.30pm"+" "+ind; var uae=new Date().toLocaleTimeString("en-us",{timeZone:"asia/dubai",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#Uae").innerHTML="<h1>Uae</h1> dfm:10.00am close:2.45pm"+" "+uae;
+var turky=new Date().toLocaleTimeString("en-us",{timeZone:"asia/istanbul",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#tur").innerHTML="<h1>turkey </h1>bist:9.15am close:6.00pm"+" "+turky; var italy=new Date().toLocaleTimeString("en-us",{timeZone:"Europe/rome",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#Ita").innerHTML="<h1>italy</h1> MTA:9.00am close:5.30pm"+" "+italy;var ger=new Date().toLocaleTimeString("en-us",{timeZone:"europe/berlin",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#Ger").innerHTML="<h1>Germany</h1> frankfurt:9.00am close:5.30pm"+" "+ger; var fra=new Date().toLocaleTimeString("en-us",{timeZone:"europe/paris",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#Fra").innerHTML="<h1>France</h1> par:8.00am close:4.30pm"+" "+fra; var eng=new Date().toLocaleTimeString("en-us",{timeZone:"europe/london",timeStyle:"medium",hourCycle:"h12"} );
+var eng=new Date().toLocaleTimeString("en-us",{timeZone:"europe/london",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#Uk").innerHTML="<h1>Uk </h1>lse:8.00am close:4.30pm"+" "+eng; var us=new Date().toLocaleTimeString("en-us",{timeZone:"america/chicago",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#us").innerHTML="<h1>America</h1> Nasdaq:9.30am close:4.00pm"+" "+us;var rus=new Date().toLocaleTimeString("en-us",{timeZone:"europe/moscow",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#Rus").innerHTML="<h1>Russia</h1> moex:10.00am close:6.40pm"+" "+rus; 
+
+
+var bra=new Date().toLocaleTimeString("en-us",{timeZone:"America/Araguaina",timeStyle:"medium",hourCycle:"h12"} ); document.querySelector("#Bra").innerHTML="<h1>brazil</h1> bovespa:6.30pm Close:1:30pm"+"<br>"+bra;
+
+
 }
+
+
+
+
+
+
+kn();
+function kn(){
+setInterval(m,100);
+}
+
+
 </script>
 
 
+<h3>Btc FundingRate</h3> <iframe width="350" height="160" src="https://www.coinglass.com/FundingRate"></iframe> <h3> 
 
+<h5><a href="https://in.investing.com/indices/world-indices">World Market</a></h5> <nav> <up><li><a href="https://asia.nikkei.com/?n_cid=NARAN190&utm_source=google&utm_medium=cpc&utm_campaign=BA_Asia_keyword&utm_content=Business_Asia_exclusive_content_top&gclid=Cj0KCQjwguGYBhDRARIsAHgRm4-UINKnEzLWzcetYvXp0TvrTyOeH3QpHniIL530Dw4G4-hRiRmXbTsaAmk0EALw_wcB"> Japan</a></li><li>uk</li><li>Hong Kong</li><li>Sanghai</li> <li><a href="https://www.zeebiz.com/hindi/?theme=mobile">India</a></li> <li><a href="https://www.cnbc.com/world/?region=world"> America</a></li> </ul> </nav> <h3>Nasdaq</h3> <iframe width="350" height="160" src="https://in.investing.com/indices/nasdaq-composite-advanced-chart"> </iframe> 
 
+<style >
+a{text-decoration:none;
 
-
-<div id="xx">
-<div id="okk">
-<div id="mn">
-
-<div id="mk">Menu</div>
-</div>
- </div>
-
-
-<center>
-<h1>AKHANDA JOYTI YUBAK SANGHA<i>KUMBHARI</i></h1>
-<div id="gh" style="position: relative;float:right;color:white;"></div>
-</center>
-<div id="r" onclick="mes()" style="float:right;position:relative;bottom:34; height:11;"><img src="meen.jpg" alt="g"/>
-<i id="t"style="color:red;font-size:23px;position:relative;float:right;top:260;left:140;"></i></di>
-
-</div>
-</div>
-
-<H4 text-align:center;">KHRISNA DJ</H4>
-<Div>hello</h
-Div>
-<nav id="men">
-<ul>
-<li><a href="table.html">All Phone Number</a></li>
-<li><a href="group.html">Upcoming</a></li>
-<li><a href="imgg.html">Biswakarma puja</a></li>
-<li><a href="calculator.html">Online calculator</a></li>
-
-<li><a href="add.html">about</a></li></ul></nav>
-
-<Img Id="bnn" src="IMG-20220916-WA0001.jpg"/>
-
-
-
-<Img src="ju.jpg" Id="CX"/>
-
-<Div id="decc" height="130" width="300" ></div>
-
-
-  <IMG src="hemanta.jpg" alt="Hemanta"/>
-
-<div style="float:right;top:100px; right:44;position: relative;color: purple;">
-
-<div>Live function Available</div>
-
-</div>
-
-
-
-
-<IMG src="parvat.jpg" alt="Parvata"/>
- <IMG src="sachin.jpg" alt="sachin"/>
- <IMG src="raju.jpg" alt="uttam"/>
-<IMG src=" " alt="Null"/>
-
-<IMG src="sumanta.jpg" height="100" width="170"alt="sumanta"/>
-<IMG src="tamal.jpg" alt="tamala"/>
-
- <IMG src=" " alt="subrat"/>
-<IMG src="umesh.jpg" alt="umesh"/>
-
- <IMG src="gane.jpg" alt="ganesh"/>
-
-<IMG src="ajit.jpg" alt="ajit"/>
-
-<div id="x"><a href="https://facebook.com">Facebook</a></div>
-<IMG src="bidya.jpg" alt="bidya"/>
-
-<IMG src="parsant.jpg" alt="parsant"/>
-
- <IMG src="sidhe.jpg" alt="sitaram"/>
- <IMG src="manoj.jpg" alt="manoj"/> 
-
-
-<IMG src="pintu.jpg" alt="pintu"/> 
-<IMG src="amiya.jpg" alt="amiya"/>
-
-<IMG src="mana.jpg" alt="mana"/>
-
-
-<IMG src="shyam.jpg" alt="shyam"/>
-
-<IMG src="aswini.jpg" alt="asw"/> 
-
-
-<IMG src="pujha.jpg" alt="Bablu"/> 
-
-<IMG src="kuber.jpg" alt="kuber"/>
-<IMG src="fakir.jpg" alt="fakir"/>
-
-
-
-<IMG src="milu.jpg" alt="milu"/>
-
-
-<IMG src="babluu.jpg" alt="bablu"/> 
-
-<IMG src="kan.jpg" alt="kan"/> 
-
-<Img src="jun.jpg" style="width:300px;height:130px;"/>
-
-<Br><br>
-
-<span style="color:cyan;">Copyright@ShashankaPatra</span>
-
-<script>
-function opp(){
-var h=document.getElementById("r").value="gh";
-if(h==""){
-document.querySelector("#t").innerHTML="";
-
-}
-else{document.querySelector("#t").innerHTML="1";
-
-}}opp();
-function mes(){
-window.open("hello.txt");
+color:brown;
 }
 
-</script>
- <script> 
-function n(){
-var f=new Date()
-document.getElementById("gh").innerHTML=f.toLocaleString();
-}n();
-setInterval (n,100);
-function bn(){
-var xx=document.querySelector("#men");
-if(xx.style.display==="none")
-{xx.style.display="block";
-}else{xx.style.display="none";
-}
+</style >
+</body>
 
-
-}
-
-
-
-document.getElementById("mk").addEventListener("click",bn);
-
-
-
-</script> 
-
-</body> </html>
+</hrml>
